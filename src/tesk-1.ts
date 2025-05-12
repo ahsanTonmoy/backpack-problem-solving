@@ -16,4 +16,4 @@ const people: Person[] = [
 const maleNames = people
   .filter((person) => person.gender === "male")
   .map((person) => person.name);
-console.log("filter out all females & updateded array", maleNames);
+console.log("filter out all females person & updateded person", maleNames);
